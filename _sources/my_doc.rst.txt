@@ -21,7 +21,7 @@ studies
    :selection: C1:F34
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 MRIsegment
 ----------
@@ -41,7 +41,7 @@ studies
    :selection: C1:F19
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 amygdala_volumes
 ++++++++++++++++
@@ -52,7 +52,7 @@ amygdala_volumes
    :selection: C1:F6
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 brainstem_volumes
 +++++++++++++++++
@@ -63,7 +63,7 @@ brainstem_volumes
    :selection: C1:F5
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 hippocampus_volumes
 +++++++++++++++++++
@@ -74,7 +74,7 @@ hippocampus_volumes
    :selection: C1:F6
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 thalamic_nuclei_volumes
 +++++++++++++++++++++++
@@ -85,7 +85,7 @@ thalamic_nuclei_volumes
    :selection: C1:F6
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 anatomical_stats
 ++++++++++++++++
@@ -96,7 +96,7 @@ anatomical_stats
    :selection: C1:F7
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 wg_surface_stats
 ++++++++++++++++
@@ -107,7 +107,7 @@ wg_surface_stats
    :selection: C1:F7
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 wg_volume_stats
 +++++++++++++++
@@ -118,7 +118,7 @@ wg_volume_stats
    :selection: C1:F7
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 global_volumes
 ++++++++++++++
@@ -129,7 +129,7 @@ global_volumes
    :selection: C1:F5
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 Petlesion
 ---------
@@ -149,7 +149,7 @@ studies
    :selection: C1:F29
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 firstorder_params
 +++++++++++++++++
@@ -160,7 +160,7 @@ firstorder_params
    :selection: C1:F24
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 glcm_params
 +++++++++++
@@ -171,7 +171,7 @@ glcm_params
    :selection: C1:F30
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 gldm_params
 +++++++++++
@@ -182,7 +182,7 @@ gldm_params
    :selection: C1:F20
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 glrlm_params
 ++++++++++++
@@ -193,7 +193,7 @@ glrlm_params
    :selection: C1:F22
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 glszm_params
 ++++++++++++
@@ -204,7 +204,7 @@ glszm_params
    :selection: C1:F22
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 ngtdm_params
 ++++++++++++
@@ -215,7 +215,7 @@ ngtdm_params
    :selection: C1:F11
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
 
 shape_params
 ++++++++++++
@@ -226,4 +226,4 @@ shape_params
    :selection: C1:F20
    :row_header: false
    :col_header: false
-   :colwidths: 270
+   :colwidths: 165
