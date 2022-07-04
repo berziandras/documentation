@@ -18,7 +18,7 @@ studies
    :file:
       D:/DE_munka/Documentation/doc/source/ctfatsegment_db_etl_sheets.xlsx
    :sheet: studies
-   :selection: C1:F34
+   :selection: C1:F30
    :row_header: false
    :col_header: false
    :colwidths: 260
@@ -38,7 +38,7 @@ studies
    :file:
       D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
    :sheet: studies
-   :selection: C1:F19
+   :selection: C1:F18
    :row_header: false
    :col_header: false
    :colwidths: 260
@@ -146,7 +146,7 @@ studies
    :file:
       D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
    :sheet: studies
-   :selection: C1:F29
+   :selection: C1:F28
    :row_header: false
    :col_header: false
    :colwidths: 260
