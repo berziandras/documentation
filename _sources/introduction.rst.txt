@@ -1,0 +1,47 @@
+.. _introduction:
+
+
+***************
+Introduction
+***************
+
+
+The UD's Clinical BigData project aims to integrate the content of the Clinical Center's data wealth into one 
+data-warehouse and makes it available for the most advanced analytical tools of data science. 
+
+.. _data_sources:
+
+
+Data Sources
+=====================
+
+
+* | **Medsol**: an *Hospital Information System* solution by T-systems
+
+* | **CTdose** : database of continuously collected radiation dose data in the relation of CT-studies at the UD
+  | Clinical Center
+  
+* | **CTfat**: database of fat tissue distribution at the L7 lumbar vertebrae calculated from various CT scans
+
+* | **FDGprop**: database of statistical properties of FDG accumulation identified in various oncological FDG-PET
+  | inbvestigations
+
+* | **RSNprop** : database of brain-network characteristics collected from different clinical and research resting
+  | state and task fMRI studies
+
+
+Deployment Chart
+====================
+
+.. figure:: bddep.png
+    :width: 900px
+    :align: center
+    :height: 600px
+    :alt: deployment diagram
+    :figclass: align-center
+
+    The deployment diagram of BD Clinocal BD project
+
+
+
+

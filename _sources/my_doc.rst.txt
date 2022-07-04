@@ -1,0 +1,229 @@
+==============
+Documentations
+==============
+
+CTFatsegment
+------------
+
+Description
+~~~~~~~~~~~
+leiras
+
+Tables
+~~~~~~
+
+studies
++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/ctfatsegment_db_etl_sheets.xlsx
+   :sheet: studies
+   :selection: C1:F34
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+MRIsegment
+----------
+Description
+~~~~~~~~~~~
+leiras
+
+Tables
+~~~~~~
+
+studies
++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
+   :sheet: studies
+   :selection: C1:F19
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+amygdala_volumes
+++++++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
+   :sheet: amygdala_volumes
+   :selection: C1:F6
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+brainstem_volumes
++++++++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
+   :sheet: brainstem_volumes
+   :selection: C1:F5
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+hippocampus_volumes
++++++++++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
+   :sheet: hippocampus_volumes
+   :selection: C1:F6
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+thalamic_nuclei_volumes
++++++++++++++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
+   :sheet: thalamic_nuclei_volumes
+   :selection: C1:F6
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+anatomical_stats
+++++++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
+   :sheet: anatomical_stats
+   :selection: C1:F7
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+wg_surface_stats
+++++++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
+   :sheet: wg_surface_stats
+   :selection: C1:F7
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+wg_volume_stats
++++++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
+   :sheet: wg_volume_stats
+   :selection: C1:F7
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+global_volumes
+++++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
+   :sheet: global_volumes
+   :selection: C1:F5
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+Petlesion
+---------
+Description
+~~~~~~~~~~~
+leiras
+
+Tables
+~~~~~~
+
+studies
++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
+   :sheet: studies
+   :selection: C1:F29
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+firstorder_params
++++++++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
+   :sheet: firstorder_params
+   :selection: C1:F24
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+glcm_params
++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
+   :sheet: glcm_params
+   :selection: C1:F30
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+gldm_params
++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
+   :sheet: gldm_params
+   :selection: C1:F20
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+glrlm_params
+++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
+   :sheet: glrlm_params
+   :selection: C1:F22
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+glszm_params
+++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
+   :sheet: glszm_params
+   :selection: C1:F22
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+ngtdm_params
+++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
+   :sheet: ngtdm_params
+   :selection: C1:F11
+   :row_header: false
+   :col_header: false
+   :colwidths: 270
+
+shape_params
+++++++++++++
+.. excel-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
+   :sheet: shape_params
+   :selection: C1:F20
+   :row_header: false
+   :col_header: false
+   :colwidths: 270

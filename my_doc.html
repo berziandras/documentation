@@ -1,0 +1,633 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Documentations &mdash; documentation 0.2 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  <link rel="stylesheet" href="_static/fonts.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Introduction" href="introduction.html" /> 
+<link rel="stylesheet" type="text/css" href="_static/handsontable.full.min.css">
+<script src="_static/handsontable.full.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> documentation
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Documentations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ctfatsegment">CTFatsegment</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#description">Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tables">Tables</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#studies">studies</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#mrisegment">MRIsegment</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Tables</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">studies</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#amygdala-volumes">amygdala_volumes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#brainstem-volumes">brainstem_volumes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#hippocampus-volumes">hippocampus_volumes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#thalamic-nuclei-volumes">thalamic_nuclei_volumes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#anatomical-stats">anatomical_stats</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#wg-surface-stats">wg_surface_stats</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#wg-volume-stats">wg_volume_stats</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#global-volumes">global_volumes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#petlesion">Petlesion</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Tables</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id6">studies</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#firstorder-params">firstorder_params</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#glcm-params">glcm_params</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gldm-params">gldm_params</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#glrlm-params">glrlm_params</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#glszm-params">glszm_params</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ngtdm-params">ngtdm_params</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#shape-params">shape_params</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+<div class="git-ribbon">
+  <a href="http://github.com/SwissDataScienceCenter" rel="me">Join us on GitHub</a>
+</div>
+
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Documentations</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/my_doc.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="documentations">
+<h1>Documentations<a class="headerlink" href="#documentations" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="ctfatsegment">
+<h2>CTFatsegment<a class="headerlink" href="#ctfatsegment" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="description">
+<h3>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
+<p>leiras</p>
+</div>
+<div class="section" id="tables">
+<h3>Tables<a class="headerlink" href="#tables" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="studies">
+<h4>studies<a class="headerlink" href="#studies" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/ctfatsegment_db_etl_sheets.xlsx-sheet-studies-icnt-1" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/ctfatsegment_db_etl_sheets.xlsx-sheet-studies-icnt-1');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1, "id", "int", "Primary key"], [123456789, "pid", "string", "TAJ number"], ["szabo janos", "-", "-", "Patient name"], ["2.1", "script_version", "float", "Script version"], ["2022-03-08", "upload_date", "date", "Record upload date"], ["1132.8873", "perim", "float", "Body perimeter on the slice (mm)"], ["306.7384", "max_width", "float", "Max width of the body on the slice (mm)"], ["256.2970", "max_height", "float", "Max height of the body on the slice (mm)"], ["66089.1365", "outer_area", "float", "Full body area on the slice"], ["51163.6848", "inner_area", "float", "Body area under the fat contour"], ["12723.0845", "vat_area", "float", "Visceral adipose tissue (VAT) area (mm2)"], ["13097.5799", "sat_area", "float", "Subcutaneous adipose tissue (SAT) area (mm2)"], ["63.6154", "vat_vol", "float", "Visceral adipose tissue (VAT) volume (cm3)"], ["65.4878", "sat_vol", "float", "Subcutaneous adipose tissue (SAT) volume (cm3)"], [".../fatsegm/64g_6_03_has-med/szabo_janos_ID_123456789_STID_11_2222222222_333/volume_1__nativ_5_mm.nii", "-", "-", "CT nifti path"], [".../fatsegm/64g_6_03_has-med/szabo_janos_ID_123456789_STID_11_2222222222_333/ct_sample.dcm", "-", "-", "CT sample.dcm path"], ["n/a", "result", "string", "n/a"], [0, "tag", "string", "Manual classification of L1 vertebra (0, 1)"], ["L1", "vertebra", "string", "Vertebra id (L1, L2, L3)"], [3, "contour_score", "string", "Manual fat contour check (1, 2, 3)"], ["n", "incomplete_slice", "string", "Body is too wide for the CT (y, n)"], ["1.1.123.1.1.1234567.1.12.1.123456789.11.2222222222.333", "-", "-", "Dicom tag: Study Instance UID"], ["2022-02-01", "study_date", "date", "Dicom tag: Study Date"], ["64g.6.03.has-med", "study_description", "string", "Dicom tag: Study Description"], ["nativ 5 mm", "series_description", "string", "Dicom tag: Series Description"], ["nnevct", "station_name", "string", "Dicom tag: Station Name"], ["6.3 Has-medence 4 fazis", "protocol_name", "string", "Dicom tag: Protocol Name"], ["LightSpeed VCT", "manufacturers_model_name", "string", "Dicom tag: Manufacturer's Model Name"], ["1953-08-22", "patients_birth_date", "date", "Dicom tag: Patient's Birth Date"], ["M", "patients_sex", "string", "Dicom tag: Patient's Sex"], [70, "patients_weight", "float", "Dicom tag: Patient's Weight"], [20, "patients_age", "smallint", "Dicom tag: Patient's Age"], ["1.58", "patients_size", "float", "Dicom tag: Patient's Size"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+</div>
+</div>
+<div class="section" id="mrisegment">
+<h2>MRIsegment<a class="headerlink" href="#mrisegment" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Description<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>leiras</p>
+</div>
+<div class="section" id="id2">
+<h3>Tables<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h4>studies<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-studies-icnt-2" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-studies-icnt-2');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1.0, "id", "int", "Primary key"], [123456789.0, "pid", "string", "TAJ number"], ["2022-05-27", "upload_date", "date", "Record upload date"], [1.0, "processed", "int", "If the study is processed successfuly (1) or not (0)"], [0.0, "control", "int", "The study belongs to the control group (1) or the patients group (0)"], ["sjogren", "project", "string", "Project name"], ["1.1.123.1.1.1234567.1.12.1.123456789.1234.1234567891.1234", "-", "-", "Dicom tag: Study Instance UID"], ["2021-05-27", "study_date", "date", "Dicom tag: Study Date"], ["koponya", "study_description", "string", "Dicom tag: Study Description"], ["st1w_3d_tfe", "series_description", "string", "Dicom tag: Series Description"], ["PHILIPS-J6JP697", "station_name", "string", "Dicom tag: Station Name"], ["sT1W_3D_TFE", "protocol_name", "string", "Dicom tag: Protocol Name"], ["Achieva", "manufacturers_model_name", "string", "Dicom tag: Manufacturer's Model Name"], ["1953-08-22", "patients_birth_date", "date", "Dicom tag: Patient's Birth Date"], ["M", "patients_sex", "string", "Dicom tag: Patient's Sex"], [60.0, "patients_weight", "smallint", "Dicom tag: Patient's Weight"], [20.0, "patients_age", "smallint", "Dicom tag: Patient's Age"], ["GR", "scanning_sequence", "string", "Dicom tag: Scanning Sequence"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="amygdala-volumes">
+<h4>amygdala_volumes<a class="headerlink" href="#amygdala-volumes" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-amygdala_volumes-icnt-3" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-amygdala_volumes-icnt-3');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1.0, "id", "int", "Primary key"], ["left", "hemisphere", "string", "Hemisphere of the brain (left, right)"], ["Lateral_nucleus", "region", "string", "Name of the brain region"], ["549.07", "value", "float", "Volume of the brain region"], [1.0, "study_id", "int", "Foreign key to the studies table"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="brainstem-volumes">
+<h4>brainstem_volumes<a class="headerlink" href="#brainstem-volumes" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-brainstem_volumes-icnt-4" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-brainstem_volumes-icnt-4');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1.0, "id", "int", "Primary key"], ["Medulla", "region", "string", "Name of the brain region"], ["3938.47", "value", "float", "Volume of the brain region"], [1.0, "study_id", "int", "Foreign key to the studies table"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="hippocampus-volumes">
+<h4>hippocampus_volumes<a class="headerlink" href="#hippocampus-volumes" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-hippocampus_volumes-icnt-5" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-hippocampus_volumes-icnt-5');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1.0, "id", "int", "Primary key"], ["left", "hemisphere", "string", "Hemisphere of the brain (left, right)"], ["Hippocampal_tail", "region", "string", "Name of the brain region"], ["441.894", "value", "float", "Volume of the brain region"], [1.0, "study_id", "int", "Foreign key to the studies table"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="thalamic-nuclei-volumes">
+<h4>thalamic_nuclei_volumes<a class="headerlink" href="#thalamic-nuclei-volumes" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-thalamic_nuclei_volumes-icnt-6" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-thalamic_nuclei_volumes-icnt-6');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1.0, "id", "int", "Primary key"], ["left", "hemisphere", "string", "Hemisphere of the brain (left, right)"], ["Left_LGN", "region", "string", "Name of the brain region"], ["178.62", "value", "float", "Volume of the brain region"], [1.0, "study_id", "int", "Foreign key to the studies table"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="anatomical-stats">
+<h4>anatomical_stats<a class="headerlink" href="#anatomical-stats" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-anatomical_stats-icnt-7" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-anatomical_stats-icnt-7');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1.0, "id", "int", "Primary key"], ["left", "hemisphere", "string", "Hemisphere of the brain (left, right)"], ["G_and_S_frontomargin", "region", "string", "Name of the brain region"], ["SurfArea", "param", "string", "Name of the statistical parameter for the brain region"], [826.0, "value", "float", "Value of the statistical parameter"], [1.0, "study_id", "int", "Foreign key to the studies table"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="wg-surface-stats">
+<h4>wg_surface_stats<a class="headerlink" href="#wg-surface-stats" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-wg_surface_stats-icnt-8" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-wg_surface_stats-icnt-8');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1.0, "id", "int", "Primary key"], ["left", "hemisphere", "string", "Hemisphere of the brain (left, right)"], ["bankssts", "region", "string", "Name of the brain region"], ["Area_mm2", "param", "string", "Name of the statistical parameter for the brain region"], ["665.8", "value", "string", "Value of the statistical parameter"], [1.0, "study_id", "int", "Foreign key to the studies table"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="wg-volume-stats">
+<h4>wg_volume_stats<a class="headerlink" href="#wg-volume-stats" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-wg_volume_stats-icnt-9" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-wg_volume_stats-icnt-9');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1.0, "id", "int", "Primary key"], ["left", "hemisphere", "string", "Hemisphere of the brain (left, right)"], ["Left-Lateral-Ventricle", "region", "string", "Name of the brain region"], ["NVoxels", "param", "string", "Name of the statistical parameter for the brain region"], [23149.0, "value", "float", "Value of the statistical parameter"], [1.0, "study_id", "int", "Foreign key to the studies table"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="global-volumes">
+<h4>global_volumes<a class="headerlink" href="#global-volumes" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-global_volumes-icnt-10" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx-sheet-global_volumes-icnt-10');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1.0, "id", "int", "Primary key"], ["BrainSegVol", "param", "string", "Name of the statistical parameter"], ["916914.0", "value", "double", "Value of the statistical parameter"], [1.0, "study_id", "int", "Foreign key to the studies table"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+</div>
+</div>
+<div class="section" id="petlesion">
+<h2>Petlesion<a class="headerlink" href="#petlesion" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id4">
+<h3>Description<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>leiras</p>
+</div>
+<div class="section" id="id5">
+<h3>Tables<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id6">
+<h4>studies<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-studies-icnt-11" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-studies-icnt-11');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1, "id", "int", "Primary key"], [123456789, "pid", "string", "TAJ number"], [-13, "x", "int", "X coordinate of lesion seed point (mm)"], [114, "y", "int", "Y coordinate of lesion seed point (mm)"], [766, "z", "int", "Z coordinate of lesion seed point (mm)"], ["R91H0", "bno", "string", "BNO code"], ["Anamn\u00e9zis: Mellkas CT malignit\u00e1sra suspect bal pulmonalis elv\u00e1ltoz\u00e1st \u00edrt le...", "result", "string", "Medical record"], ["p00001", "-", "-", "Local patient id"], ["2022-05-27", "upload_date", "date", "Record upload date"], [1, "processed", "smallint", "If the study is processed successfuly (1) or not (0)"], ["2x2x5", "-", "-", "Voxel dimensions in mm (x,y,z)"], ["1.1.123.1.1.1234567.1.12.1.123456789.1234.1234567891.1234", "-", "-", "Dicom tag: Study Instance UID"], ["2021-05-27", "study_date", "date", "Dicom tag: Study Date"], ["f-18 fdg wb 30<40bmi", "study_description", "string", "Dicom tag: Study Description"], ["detailwb_nac body detail", "series_description", "string", "Dicom tag: Series Description"], ["HOST-7104", "station_name", "string", "Dicom tag: Station Name"], ["F-18 FDG WB 30<40BMI", "protocol_name", "string", "Dicom tag: Protocol Name"], ["Vereos PET/CT", "manufacturers_model_name", "string", "Dicom tag: Manufacturer's Model Name"], ["1953-08-22", "patients_birth_date", "date", "Dicom tag: Patient's Birth Date"], ["M", "patients_sex", "string", "Dicom tag: Patient's Sex"], [60, "patients_weight", "smallint", "Dicom tag: Patient's Weight"], [20, "patients_age", "smallint", "Dicom tag: Patient's Age"], ["1.71", "patients_size", "float", "Dicom tag: Patient's size"], [75307, "actual_frame_duration", "int", "Dicom tag: Actual Frame Duration"], [145318, "radiopharmaceutical_start_time", "int", "Dicom tag: Radiopharmaceutical Start Time"], [271600000, "radionuclide_total_dose", "int", "Dicom tag: Radionuclide Total Dose"], [154611, "series_time", "int", "Dicom tag: Series Time"], ["3D-RAMLA", "reconstruction_method", "string", "Dicom tag: Reconstruction Method"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="firstorder-params">
+<h4>firstorder_params<a class="headerlink" href="#firstorder-params" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-firstorder_params-icnt-12" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-firstorder_params-icnt-12');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1, "id", "int", "Primary key"], [2, "lesion_id", "int", "Foreign key to the lesions table"], ["RG", "segmentation_method", "string", "The segmentation algorithm"], ["13", "bin_cnt", "int", "Bin count parameter for pyradiomics"], [0, "bin_width", "float", "Bin width parameter for pyradiomics"], ["1.6831", "firstorder_10percentile", "float", "The 10th\u00a0percentile of\u00a0X; X  be a set of Np voxels included in the ROI"], ["6.4405", "firstorder_90percentile", "float", "The 90th\u00a0percentile of\u00a0X; X  be a set of Np voxels included in the ROI"], ["32983.7", "firstorder_energy", "float", "Energy is a measure of the magnitude of voxel values in an image. A larger values implies a greater sum of the squares of these values. "], ["3.0571", "firstorder_entropy", "float", "Entropy specifies the uncertainty/randomness in the image values. It measures the average amount of information required to encode the image values. "], ["2.4556", "firstorder_interquartilerange", "float", "P75\u2212P25; Here P25 and P75 are the 25th and 75th percentile of the image array, respectively."], ["3.7615", "firstorder_kurtosis", "float", "Kurtosis is a measure of the \u2018peakedness\u2019 of the distribution of values in the image ROI. A higher kurtosis implies that the mass of the distribution is concentrated towards the tail(s) rather than towards the mean. A lower kurtosis implies the reverse: that the mass of the distribution is concentrated towards a spike near the Mean value. "], ["10.3408", "firstorder_maximum", "float", "The maximum gray level intensity within the ROI. "], ["1.5315", "firstorder_meanabsolutedeviation", "float", "Mean Absolute Deviation is the mean distance of all intensity values from the Mean Value of the image array. "], ["3.4881", "firstorder_mean", "float", "The average gray level intensity within the ROI. "], ["2.8272", "firstorder_median", "float", "The median gray level intensity within the ROI. "], ["1.2868", "firstorder_minimum", "float", "min(X); X  be a set of Np voxels included in the ROI"], ["9.054", "firstorder_range", "float", "The range of gray values in the ROI. "], ["1.054", "firstorder_robustmeanabsolutedeviation", "float", "Robust Mean Absolute Deviation is the mean distance of all intensity values from the Mean Value calculated on the subset of image array with gray levels in between, or equal to the 10th\u00a0and 90th\u00a0percentile. "], ["3.9812", "firstorder_rootmeansquared", "float", "RMS is the square-root of the mean of all the squared intensity values. It is another measure of the magnitude of the image values. This feature is volume-confounded, a larger value of\u00a0c\u00a0increases the effect of volume-confounding. "], ["1.2148", "firstorder_skewness", "float", "Skewness measures the asymmetry of the distribution of values about the Mean value. Depending on where the tail is elongated and the mass of the distribution is concentrated, this value can be positive or negative. "], ["32983.7", "firstorder_totalenergy", "float", "Total Energy is the value of Energy feature scaled by the volume of the voxel in cubic mm. "], ["0.1524", "firstorder_uniformity", "float", "Uniformity is a measure of the sum of the squares of each intensity value. This is a measure of the homogeneity of the image array, where a greater uniformity implies a greater homogeneity or a smaller range of discrete intensity values."], ["3.6829", "firstorder_variance", "float", "Variance is the the mean of the squared distances of each intensity value from the Mean value. This is a measure of the spread of the distribution about the mean. By definition,\u00a0variance=\u03c32"]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="glcm-params">
+<h4>glcm_params<a class="headerlink" href="#glcm-params" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-glcm_params-icnt-13" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-glcm_params-icnt-13');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1, "id", "int", "Primary key"], [2, "lesion_id", "int", "Foreign key to the lesions table"], ["RG", "segmentation_method", "string", "The segmentation algorithm"], ["13", "bin_cnt", "int", "Bin count parameter for pyradiomics"], [0, "bin_width", "float", "Bin width parameter for pyradiomics"], ["23.0041", "glcm_autocorrelation", "float", "Autocorrelation is a measure of the magnitude of the fineness and coarseness of texture."], ["2761.65", "glcm_clusterprominence", "float", "Cluster Prominence is a measure of the skewness and asymmetry of the GLCM. A higher values implies more asymmetry about the mean while a lower value indicates a peak near the mean value and less variation about the mean. "], ["163.148", "glcm_clustershade", "float", "Cluster Shade is a measure of the skewness and uniformity of the GLCM. A higher cluster shade implies greater asymmetry about the mean. "], ["28.7356", "glcm_clustertendency", "float", "Cluster Tendency is a measure of groupings of voxels with similar gray-level values. "], ["2.6885", "glcm_contrast", "float", "Contrast is a measure of the local intensity variation, favoring values away from the diagonal\u00a0(i=j). A larger value correlates with a greater disparity in intensity values among neighboring voxels. "], ["0.8297", "glcm_correlation", "float", "Correlation is a value between 0 (uncorrelated) and 1 (perfectly correlated) showing the linear dependency of gray level values to their respective voxels in the GLCM. "], ["1.2455", "glcm_differenceaverage", "float", "Difference Average measures the relationship between occurrences of pairs with similar intensity values and occurrences of pairs with differing intensity values. "], ["1.9399", "glcm_differenceentropy", "float", "Difference Entropy is a measure of the randomness/variability in neighborhood intensity value differences. "], ["1.0406", "glcm_differencevariance", "float", "Difference Variance is a measure of heterogeneity that places higher weights on differing intensity level pairs that deviate more from the mean. "], ["0.5612", "glcm_id", "float", "Inverse Difference (ID, a.k.a. Homogeneity 1) is another measure of the local homogeneity of an image. With more uniform gray levels, the denominator will remain low, resulting in a higher overall value. "], ["0.5141", "glcm_idm", "float", "Inverse Difference Moment (IDM, a.k.a Homogeneity 2) is a measure of the local homogeneity of an image. IDM weights are the inverse of the Contrast weights (decreasing exponentially from the diagonal i=j in the GLCM)."], ["0.9848", "glcm_idmn", "float", "Inverse difference moment normalized (IDMN) is a measure of the local homogeneity of an image. IDMN weights are the inverse of the Contrast weights (decreasing exponentially from the diagonal\u00a0i=j\u00a0in the GLCM). Unlike Homogeneity2, IDMN normalizes the square of the difference between neighboring intensity values by dividing over the square of the total number of discrete intensity values. "], ["0.9174", "glcm_idn", "float", "Inverse difference normalized (IDN) is another measure of the local homogeneity of an image. Unlike Homogeneity1, IDN normalizes the difference between the neighboring intensity values by dividing over the total number of discrete intensity values. "], ["-0.2645", "glcm_imc1", "float", "Informational Measure of Correlation 1 (IMC1) assesses the correlation between the probability distributions of\u00a0i\u00a0and\u00a0j\u00a0(quantifying the complexity of the texture), using mutual information "], ["0.8917", "glcm_imc2", "float", "Informational Measure of Correlation 2 (IMC2) also assesses the correlation between the probability distributions of\u00a0i\u00a0and\u00a0j\u00a0(quantifying the complexity of the texture). "], ["0.465", "glcm_inversevariance ", "float", "Inverse Variance "], ["4.0602", "glcm_jointaverage ", "float", "Returns the mean gray level intensity of the\u00a0i\u00a0distribution. "], ["0.0339", "glcm_jointenergy ", "float", "Energy is a measure of homogeneous patterns in the image. A greater Energy implies that there are more instances of intensity value pairs in the image that neighbor each other at higher frequencies. "], ["5.543", "glcm_jointentropy", "float", "Joint entropy is a measure of the randomness/variability in neighborhood intensity values. "], ["0.8352", "glcm_mcc", "float", "The Maximal Correlation Coefficient (MCC) is a measure of complexity of the texture and\u00a00\u2264MCC\u22641. "], ["0.0805", "glcm_maximumprobability", "float", "Maximum Probability is occurrences of the most predominant pair of neighboring intensity values. "], ["8.1203", "glcm_sumaverage", "float", "Sum Average measures the relationship between occurrences of pairs with lower intensity values and occurrences of pairs with higher intensity values. "], ["4.0776", "glcm_sumentropy", "float", "Sum Entropy is a sum of neighborhood intensity value differences. "], ["7.856", "glcm_sumsquares", "float", "Sum of Squares or Variance is a measure in the distribution of neigboring intensity level pairs about the mean intensity level in the GLCM. "]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="gldm-params">
+<h4>gldm_params<a class="headerlink" href="#gldm-params" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-gldm_params-icnt-14" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-gldm_params-icnt-14');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1, "id", "int", "Primary key"], [2, "lesion_id", "int", "Foreign key to the lesions table"], ["RG", "segmentation_method", "string", "The segmentation algorithm"], ["13", "bin_cnt", "int", "Bin count parameter for pyradiomics"], [0, "bin_width", "float", "Bin width parameter for pyradiomics"], ["5.9828                    ", "gldm_dependenceentropy", "float", "DependenceEntropy "], ["249.697             ", "gldm_dependencenonuniformity", "float", "Dependence Non-Uniformity (DN): Measures the similarity of dependence throughout the image, with a lower value indicating more homogeneity among dependencies in the image."], ["0.12", "gldm_dependencenonuniformitynormalized", "float", "Dependence Non-Uniformity Normalized (DNN). Measures the similarity of dependence throughout the image, with a lower value indicating more homogeneity among dependencies in the image. This is the normalized version of the DLN formula."], ["5.8754", "gldm_dependencevariance", "float", "Dependence Variance (DV). Measures the variance in dependence size in the image."], ["317.123", "gldm_graylevelnonuniformity", "float", "Gray Level Non-Uniformity (GLN). Measures the similarity of gray-level intensity values in the image, where a lower GLN value correlates with a greater similarity in intensity values."], ["7.6621", "gldm_graylevelvariance", "float", "Gray Level Variance (GLV). Measures the variance in grey level in the image."], ["21.0139", "gldm_highgraylevelemphasis", "float", "High Gray Level Emphasis (HGLE). Measures the distribution of the higher gray-level values, with a higher value indicating a greater concentration of high gray-level values in the image."], ["52.3522", "gldm_largedependenceemphasis", "float", "Large Dependence Emphasis (LDE). A measure of the distribution of large dependencies, with a greater value indicative of larger dependence and more homogeneous textures."], ["788.862", "gldm_largedependencehighgraylevelemphasis", "float", "Large Dependence High Gray Level Emphasis (LDHGLE). Measures the joint distribution of large dependence with higher gray-level values."], ["22.5516", "gldm_largedependencelowgraylevelemphasis", "float", "Large Dependence Low Gray Level Emphasis (LDLGLE). Measures the joint distribution of large dependence with lower gray-level values."], ["0.3283", "gldm_lowgraylevelemphasis", "float", "Low Gray Level Emphasis (LGLE). Measures the distribution of low gray-level values, with a higher value indicating a greater concentration of low gray-level values in the image."], ["0.0351", "gldm_smalldependenceemphasis", "float", "Small Dependence Emphasis (SDE). A measure of the distribution of small dependencies, with a greater value indicative of smaller dependence and less homogeneous textures."], ["1.1063", "gldm_smalldependencehighgraylevelemphasis", "float", "Small Dependence High Gray Level Emphasis (SDHGLE). Measures the joint distribution of small dependence with higher gray-level values."], ["0.0083", "gldm_smalldependencelowgraylevelemphasis", "float", "Small Dependence Low Gray Level Emphasis (SDLGLE). Measures the joint distribution of small dependence with lower gray-level values."]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="glrlm-params">
+<h4>glrlm_params<a class="headerlink" href="#glrlm-params" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-glrlm_params-icnt-15" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-glrlm_params-icnt-15');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1, "id", "int", "Primary key"], [2, "lesion_id", "int", "Foreign key to the lesions table"], ["RG", "segmentation_method", "string", "The segmentation algorithm"], ["13", "bin_cnt", "int", "Bin count parameter for pyradiomics"], [0, "bin_width", "float", "Bin width parameter for pyradiomics"], ["232.306", "glrlm_graylevelnonuniformity", "float", "Gray Level Non-Uniformity (GLN). GLN measures the similarity of gray-level intensity values in the image, where a lower GLN value correlates with a greater similarity in intensity values."], ["0.1435", "glrlm_graylevelnonuniformitynormalized", "float", "Gray Level Non-Uniformity Normalized (GLNN). GLNN measures the similarity of gray-level intensity values in the image, where a lower GLNN value correlates with a greater similarity in intensity values. This is the normalized version of the GLN formula."], ["7.8066", "glrlm_graylevelvariance", "float", "\u00a0Gray Level Variance (GLV). GLV measures the variance in gray level intensity for the runs."], ["22.1835", "glrlm_highgraylevelrunemphasis", "float", "High Gray Level Run Emphasis (HGLRE). HGLRE measures the distribution of the higher gray-level values, with a higher value indicating a greater concentration of high gray-level values in the image."], ["2.3234", "glrlm_longrunemphasis", "float", "Long Run Emphasis (LRE). LRE is a measure of the distribution of long run lengths, with a greater value indicative of longer run lengths and more coarse structural textures."], ["41.8228", "glrlm_longrunhighgraylevelemphasis", "float", "Long Run High Gray Level Emphasis (LRHGLE). Measures the joint distribution of long run lengths with higher gray-level values."], ["0.863", "glrlm_longrunlowgraylevelemphasis", "float", "Long Run Low Gray Level Emphasis (LRLGLE). Measures the joint distribution of long run lengths with lower gray-level values."], ["0.3112", "glrlm_lowgraylevelrunemphasis", "float", "Low Gray Level Run Emphasis (LGLRE). Measures the distribution of low gray-level values, with a higher value indicating a greater concentration of low gray-level values in the image."], ["4.0207", "glrlm_runentropy", "float", "Run Entropy (RE). RE measures the uncertainty/randomness in the distribution of run lengths and gray levels. A higher value indicates more heterogeneity in the texture patterns."], ["1117.44", "glrlm_runlengthnonuniformity", "float", "Run Length Non-Uniformity (RLN). RLN measures the similarity of run lengths throughout the image, with a lower value indicating more homogeneity among run lengths in the image."], ["0.6852", "glrlm_runlengthnonuniformitynormalized", "float", "Run Length Non-Uniformity Normalized (RLNN). RLNN measures the similarity of run lengths throughout the image, with a lower value indicating more homogeneity among run lengths in the image. This is the normalized version of the RLN formula."], ["0.7763", "glrlm_runpercentage", "float", "Run Percentage (RP). RP measures the coarseness of the texture by taking the ratio of number of runs and number of voxels in the ROI."], ["0.6154", "glrlm_runvariance", "float", "Run Variance (RV). RV is a measure of the variance in runs for the run lengths."], ["0.8515", "glrlm_shortrunemphasis", "float", "Short Run Emphasis (SRE). SRE is a measure of the distribution of short run lengths, with a greater value indicative of shorter run lengths and more fine textural textures."], ["19.2091", "glrlm_shortrunhighgraylevelemphasis", "float", "Short Run High Gray Level Emphasis (SRHGLE). SRHGLE measures the joint distribution of shorter run lengths with higher gray-level values."], ["0.2578", "glrlm_shortrunlowgraylevelemphasis", "float", "Short Run Low Gray Level Emphasis (SRLGLE). SRLGLE measures the joint distribution of shorter run lengths with lower gray-level values."]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="glszm-params">
+<h4>glszm_params<a class="headerlink" href="#glszm-params" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-glszm_params-icnt-16" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-glszm_params-icnt-16');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1, "id", "int", "Primary key"], [2, "lesion_id", "int", "Foreign key to the lesions table"], ["RG", "segmentation_method", "string", "The segmentation algorithm"], ["13", "bin_cnt", "int", "Bin count parameter for pyradiomics"], [0, "bin_width", "float", "Bin width parameter for pyradiomics"], ["2.4167", "glszm_graylevelnonuniformity", "float", "Gray Level Non-Uniformity (GLN). GLN measures the variability of gray-level intensity values in the image, with a lower value indicating more homogeneity in intensity values."], ["0.1007", "glszm_graylevelnonuniformitynormalized", "float", "Gray Level Non-Uniformity Normalized (GLNN). GLNN measures the variability of gray-level intensity values in the image, with a lower value indicating a greater similarity in intensity values. This is the normalized version of the GLN formula."], ["14.2066", "glszm_graylevelvariance", "float", "Gray Level Variance (GLV). GLV measures the variance in gray level intensities for the zones."], ["59.2083", "glszm_highgraylevelzoneemphasis", "float", "High Gray Level Zone Emphasis (HGLZE). HGLZE measures the distribution of the higher gray-level values, with a higher value indicating a greater proportion of higher gray-level values and size zones in the image."], ["27036.8", "glszm_largeareaemphasis", "float", "Large Area Emphasis (LAE). LAE is a measure of the distribution of large area size zones, with a greater value indicative of more larger size zones and more coarse textures."], [208663, "glszm_largeareahighgraylevelemphasis", "float", "Large Area High Gray Level Emphasis (LAHGLE). LAHGLE measures the proportion in the image of the joint distribution of larger size zones with higher gray-level values."], ["13205.6", "glszm_largearealowgraylevelemphasis", "float", "Large Area Low Gray Level Emphasis (LALGLE). LALGLE measures the proportion in the image of the joint distribution of larger size zones with lower gray-level values."], ["0.1964", "glszm_lowgraylevelzoneemphasis", "float", "Low Gray Level Zone Emphasis (LGLZE). LGLZE measures the distribution of lower gray-level size zones, with a higher value indicating a greater proportion of lower gray-level values and size zones in the image."], ["1.8333", "glszm_sizezonenonuniformity", "float", "Size-Zone Non-Uniformity (SZN). SZN measures the variability of size zone volumes in the image, with a lower value indicating more homogeneity in size zone volumes."], ["0.0764", "glszm_sizezonenonuniformitynormalized", "float", "Size-Zone Non-Uniformity Normalized (SZNN). SZNN measures the variability of size zone volumes throughout the image, with a lower value indicating more homogeneity among zone size volumes in the image. This is the normalized version of the SZN formula."], ["0.1426", "glszm_smallareaemphasis", "float", "Small Area Emphasis (SAE). SAE is a measure of the distribution of small size zones, with a greater value indicative of more smaller size zones and more fine textures."], ["9.6818", "glszm_smallareahighgraylevelemphasis", "float", "Small Area High Gray Level Emphasis (SAHGLE). SAHGLE measures the proportion in the image of the joint distribution of smaller size zones with higher gray-level values."], ["0.0219", "glszm_smallarealowgraylevelemphasis", "float", "Small Area Low Gray Level Emphasis (SALGLE). SALGLE measures the proportion in the image of the joint distribution of smaller size zones with lower gray-level values."], ["4.5016", "glszm_zoneentropy", "float", "Zone Entropy (ZE). ZE measures the uncertainty/randomness in the distribution of zone sizes and gray levels. A higher value indicates more heterogeneneity in the texture patterns."], ["0.0115", "glszm_zonepercentage", "float", "Zone Percentage (ZP). ZP measures the coarseness of the texture by taking the ratio of number of zones and number of voxels in the ROI."], ["19518.5", "glszm_zonevariance", "float", "Zone Variance (ZV). ZV measures the variance in zone size volumes for the zones."]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="ngtdm-params">
+<h4>ngtdm_params<a class="headerlink" href="#ngtdm-params" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-ngtdm_params-icnt-17" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-ngtdm_params-icnt-17');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1, "id", "int", "Primary key"], [2, "lesion_id", "int", "Foreign key to the lesions table"], ["RG", "segmentation_method", "string", "The segmentation algorithm"], ["13", "bin_cnt", "int", "Bin count parameter for pyradiomics"], [0, "bin_width", "float", "Bin width parameter for pyradiomics"], ["7.2163", "ngtdm_busyness", "float", "A measure of the change from a pixel to its neighbour. A high value for busyness indicates a \u2018busy\u2019 image, with rapid changes of intensity between pixels and its neighbourhood."], ["0.0064", "ngtdm_coarseness", "float", "Coarseness is a measure of average difference between the center voxel and its neighbourhood and is an indication of the spatial rate of change. A higher value indicates a lower spatial change rate and a locally more uniform texture. "], ["46.2345", "ngtdm_complexity", "float", "An image is considered complex when there are many primitive components in the image, i.e. the image is non-uniform and there are many rapid changes in gray level intensity. "], ["0.048", "ngtdm_contrast", "float", "Contrast is a measure of the spatial intensity change, but is also dependent on the overall gray level dynamic range. Contrast is high when both the dynamic range and the spatial change rate are high, i.e. an image with a large range of gray levels, with large changes between voxels and their neighbourhood. "], ["0.8394", "ngtdm_strength", "float", "Strength is a measure of the primitives in an image. Its value is high when the primitives are easily defined and visible, i.e. an image with slow change in intensity but more large coarse differences in gray level intensities. "]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+<div class="section" id="shape-params">
+<h4>shape_params<a class="headerlink" href="#shape-params" title="Permalink to this headline">¶</a></h4>
+<div id="excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-shape_params-icnt-18" style="margin-bottom: 24px"></div>
+<script>
+  var container = document.getElementById('excel-D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx-sheet-shape_params-icnt-18');
+    var hot = new Handsontable(container, {
+    data: [["Sample", "Databricks field name", "Databricks field type", "Description"], [1, "id", "int", "Primary key"], [2, "lesion_id", "int", "Foreign key to the lesions table"], ["RG", "segmentation_method", "string", "The segmentation algorithm"], ["13", "bin_cnt", "int", "Bin count parameter for pyradiomics"], [0, "bin_width", "float", "Bin width parameter for pyradiomics"], ["0.6621", "shape_elongation", "float", "Elongation shows the relationship between the two largest principal components in the ROI shape. For computational reasons, this feature is defined as the inverse of true elongation. "], ["0.5725", "shape_flatness", "float", "Flatness shows the relationship between the largest and smallest principal components in the ROI shape. For computational reasons, this feature is defined as the inverse of true flatness. "], ["11.4487", "shape_leastaxislength", "float", "This feature yield the smallest axis length of the ROI-enclosing ellipsoid and is calculated using the largest principal component\u00a0\u03bbleast. In case of a 2D segmentation, this value will be 0. "], ["19.9974", "shape_majoraxislength", "float", "This feature yield the largest axis length of the ROI-enclosing ellipsoid and is calculated using the largest principal component\u00a0\u03bbmajor. "], ["17.8885", "shape_maximum2ddiametercolumn", "float", "Maximum 2D diameter (Column) is defined as the largest pairwise Euclidean distance between tumor surface mesh vertices in the row-slice (usually the coronal) plane. "], ["21.095", "shape_maximum2ddiameterrow", "float", "Maximum 2D diameter (Row) is defined as the largest pairwise Euclidean distance between tumor surface mesh vertices in the column-slice (usually the sagittal) plane. "], ["21.5407", "shape_maximum2ddiameterslice", "float", "Maximum 2D diameter (Slice) is defined as the largest pairwise Euclidean distance between tumor surface mesh vertices in the row-column (generally the axial) plane. "], ["22.1133", "shape_maximum3ddiameter", "float", "Maximum 3D diameter is defined as the largest pairwise Euclidean distance between tumor surface mesh vertices. "], ["2062.71", "shape_meshvolume", "float", "The volume of the ROI\u00a0V\u00a0is calculated from the triangle mesh of the ROI. For each face\u00a0i\u00a0in the mesh, defined by points\u00a0ai,bi\u00a0and\u00a0ci, the (signed) volume\u00a0Vf\u00a0of the tetrahedron defined by that face and the origin of the image (O) is calculated. (1) The sign of the volume is determined by the sign of the normal, which must be consistently defined as either facing outward or inward of the ROI. "], ["13.2402", "shape_minoraxislength", "float", "This feature yield the second-largest axis length of the ROI-enclosing ellipsoid and is calculated using the largest principal component\u00a0\u03bbminor. "], ["0.8232", "shape_sphericity", "float", "Sphericity is a measure of the roundness of the shape of the tumor region relative to a sphere. It is a dimensionless measure, independent of scale and orientation. The value range is\u00a00<sphericity\u22641, where a value of 1 indicates a perfect sphere (a sphere has the smallest possible surface area for a given volume, compared to other solids). "], ["951.939", "shape_surfacearea", "float", "To calculate the surface area, first the surface area\u00a0Ai\u00a0of each triangle in the mesh is calculated. The total surface area is then obtained by taking the sum of all calculated sub-areas. "], ["0.4615", "shape_surfacevolumeratio", "float", "Here, a lower value indicates a more compact (sphere-like) shape. This feature is not dimensionless, and is therefore (partly) dependent on the volume of the ROI. "], [2081, "shape_voxelvolume", "float", "The volume of the ROI\u00a0Vvoxel\u00a0is approximated by multiplying the number of voxels in the ROI by the volume of a single voxel\u00a0Vk. This is a less precise approximation of the volume and is not used in subsequent features. This feature does not make use of the mesh and is not used in calculation of other shape features. "]],
+    preventOverflow: 'horizontal',
+    readOnly: true,
+    width: undefined,
+    colWidths: 270,
+    manualColumnResize: true,
+    manualRowResize: true,
+    rowHeaders: false,
+    colHeaders: false,
+    mergeCells: []
+    });
+</script>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2022, Berzi András.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
