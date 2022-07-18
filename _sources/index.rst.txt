@@ -14,7 +14,6 @@ Welcome to UD’s Clinical BigData project documentation!
    my_doc.rst
 
 
-
 Indices and tables
 ==================
 

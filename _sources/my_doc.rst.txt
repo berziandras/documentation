@@ -2,6 +2,235 @@
 Documentations
 ==============
 
+Medsol
+------
+
+Description
+~~~~~~~~~~~
+leiras
+
+Tables
+~~~~~~
+
+accounting_category_code
+++++++++++++++++++++++++
+This table was named **payctgtbl** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/accounting_category_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+admittance_type_code
+++++++++++++++++++++
+This table was named **admittypetbl** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/admittance_type_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+admittiance_status_code
++++++++++++++++++++++++
+This table was named **admitstattbl** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/admittiance_status_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+blocktype_code
+++++++++++++++
+This table was named **blktypetbl** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/blocktype_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+case_status_code
+++++++++++++++++
+This table was named **casestattbl** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/case_status_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+diagnosis
++++++++++
+This table was named **pdiagn** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/diagnosis.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+discharge_type_code
++++++++++++++++++++
+This table was named **dischtypetbl** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/discharge_type_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+financing_code
+++++++++++++++
+This table was named **finantbl** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/financing_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+measurement
++++++++++++
+This table was named **mritem** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/measurement.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+medical_case
+++++++++++++
+This table was named **cbasic** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/medical_case.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+medical_case_text_item
+++++++++++++++++++++++
+This table was named **txtbasic** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/medical_case_text_item.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+medication
+++++++++++
+This table was named **pmpres** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/medication.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+medication_code
++++++++++++++++
+This table was named **mdmast** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/medication_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+medication_status_code
+++++++++++++++++++++++
+This table was named **mdstat** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/medication_status_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+medication_type_code
+++++++++++++++++++++
+This table was named **mdtype** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/medication_type_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+mrkeyword_code
+++++++++++++++
+This table was named **mrkwd** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/mrkeyword_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+patient
++++++++
+This table was named **pat** in the old medsol db.
+
+.. csv-table::
+   :file: D:/DE_munka/Documentation/doc/source/_csvs/medsol/patient.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+profession_code
++++++++++++++++
+This table was named **profess** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/profession_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+treament_code
++++++++++++++
+This table was named **acmast** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/treament_code.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
+treatment
++++++++++
+This table was named **perfac** in the old medsol db.
+
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/medsol/treatment.csv
+   :header-rows: 1
+   :widths: 10, 10, 10, 25, 45
+   :class: tight-table
+
 CTFatsegment
 ------------
 
@@ -14,125 +243,107 @@ Tables
 
 studies
 +++++++
-.. excel-table::
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/ctfatsegment_db_etl_sheets.xlsx
-   :sheet: studies
-   :selection: C1:F30
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/ctfatsegment/studies.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
 
 MRIsegment
 ----------
+
 Description
 ~~~~~~~~~~~
 leiras
 
 Tables
 ~~~~~~
-
-studies
-+++++++
-.. excel-table::
-   :file:
-      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
-   :sheet: studies
-   :selection: C1:F18
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
 
 amygdala_volumes
 ++++++++++++++++
-.. excel-table::
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
-   :sheet: amygdala_volumes
-   :selection: C1:F6
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
-
-brainstem_volumes
-+++++++++++++++++
-.. excel-table::
-   :file:
-      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
-   :sheet: brainstem_volumes
-   :selection: C1:F5
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
-
-hippocampus_volumes
-+++++++++++++++++++
-.. excel-table::
-   :file:
-      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
-   :sheet: hippocampus_volumes
-   :selection: C1:F6
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
-
-thalamic_nuclei_volumes
-+++++++++++++++++++++++
-.. excel-table::
-   :file:
-      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
-   :sheet: thalamic_nuclei_volumes
-   :selection: C1:F6
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/mrisegment/amygdala_volumes.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
 
 anatomical_stats
 ++++++++++++++++
-.. excel-table::
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
-   :sheet: anatomical_stats
-   :selection: C1:F7
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/mrisegment/anatomical_stats.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
 
-wg_surface_stats
-++++++++++++++++
-.. excel-table::
+brainstem_volumes
++++++++++++++++++
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
-   :sheet: wg_surface_stats
-   :selection: C1:F7
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
-
-wg_volume_stats
-+++++++++++++++
-.. excel-table::
-   :file:
-      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
-   :sheet: wg_volume_stats
-   :selection: C1:F7
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/mrisegment/brainstem_volumes.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
 
 global_volumes
 ++++++++++++++
-.. excel-table::
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/mrisegment_db_etl_sheets.xlsx
-   :sheet: global_volumes
-   :selection: C1:F5
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/mrisegment/global_volumes.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
+
+hippocampus_volumes
++++++++++++++++++++
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/mrisegment/hippocampus_volumes.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
+
+studies
++++++++
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/mrisegment/studies.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
+
+thalamic_nuclei_volumes
++++++++++++++++++++++++
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/mrisegment/thalamic_nuclei_volumes.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
+
+wg_surface_stats
+++++++++++++++++
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/mrisegment/wg_surface_stats.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
+
+wg_volume_stats
++++++++++++++++
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/mrisegment/wg_volume_stats.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
 
 Petlesion
 ---------
+
 Description
 ~~~~~~~~~~~
 leiras
@@ -140,90 +351,94 @@ leiras
 Tables
 ~~~~~~
 
-studies
-+++++++
-.. excel-table::
-   :file:
-      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
-   :sheet: studies
-   :selection: C1:F28
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
-
 firstorder_params
 +++++++++++++++++
-.. excel-table::
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
-   :sheet: firstorder_params
-   :selection: C1:F24
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/petlesion/firstorder_params.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
 
 glcm_params
 +++++++++++
-.. excel-table::
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
-   :sheet: glcm_params
-   :selection: C1:F30
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/petlesion/glcm_params.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
 
 gldm_params
 +++++++++++
-.. excel-table::
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
-   :sheet: gldm_params
-   :selection: C1:F20
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/petlesion/gldm_params.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
 
 glrlm_params
 ++++++++++++
-.. excel-table::
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
-   :sheet: glrlm_params
-   :selection: C1:F22
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/petlesion/glrlm_params.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
 
 glszm_params
 ++++++++++++
-.. excel-table::
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
-   :sheet: glszm_params
-   :selection: C1:F22
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/petlesion/glszm_params.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
 
 ngtdm_params
 ++++++++++++
-.. excel-table::
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
-   :sheet: ngtdm_params
-   :selection: C1:F11
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/petlesion/ngtdm_params.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
 
 shape_params
 ++++++++++++
-.. excel-table::
+.. csv-table::
    :file:
-      D:/DE_munka/Documentation/doc/source/petlesion_db_etl_sheets.xlsx
-   :sheet: shape_params
-   :selection: C1:F20
-   :row_header: false
-   :col_header: false
-   :colwidths: 260
+      D:/DE_munka/Documentation/doc/source/_csvs/petlesion/shape_params.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
+
+studies
++++++++
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/petlesion/studies.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
+
+CTDose
+------
+
+Description
+~~~~~~~~~~~
+leiras
+
+Tables
+~~~~~~
+
+patientdosebybodyregion
++++++++++++++++++++++++
+.. csv-table::
+   :file:
+      D:/DE_munka/Documentation/doc/source/_csvs/ctdose/patientdosebybodyregion.csv
+   :header-rows: 1
+   :widths: 20, 10, 20, 50
+   :class: tight-table
+
